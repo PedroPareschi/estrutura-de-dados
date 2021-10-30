@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\AlocMemoria.dir/objects.a
+C:\PROGRA~1\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\AlocMemoria.dir/objects.a @CMakeFiles\AlocMemoria.dir\objects1.rsp
+C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\AlocMemoria.dir/objects.a -Wl,--no-whole-archive -o AlocMemoria.exe -Wl,--out-implib,libAlocMemoria.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\AlocMemoria.dir\linklibs.rsp
