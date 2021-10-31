@@ -24,5 +24,5 @@ typedef struct {
 
 Quadra criarQuadra(char *nome, int cap);
 void marcarReserva(Quadra *quadra, int dia, int mes, int ano, int hora, int minuto);
-void destruirQuadra(Quadra* quadra);
+void destruirQuadra(Quadra quadra);
 void imprimirQuadra(Quadra quadra);

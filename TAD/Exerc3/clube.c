@@ -46,4 +46,9 @@ void imprimirQuadra(Quadra quadra) {
     printf("}");
 }
 
+void destruirQuadra(Quadra quadra) {
+    free(quadra.reservas);
+    free(quadra.nome);
+}
+
 
